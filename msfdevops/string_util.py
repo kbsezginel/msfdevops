@@ -24,6 +24,11 @@ def title_string(s):
     >>> title_string("this iS a StrrING to be ConverTeD")
     'This Is A String To Be Converted'
     """
+    if not isinstance(s, str):
+        raise TypeError('Input must be type string')
+
+    if len(s) == 0:
+        return ''
 
     new_str = s[0].upper()
     for i in range(1, len(s)):
