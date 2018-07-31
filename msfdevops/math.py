@@ -24,7 +24,7 @@ def mean(num_list):
     3.0
     """
     # Check that user passes list
-    if isinstance(num_list, list):
+    if not isinstance(num_list, list):
         raise TypeError('Input must be type list')
 
     # Check that list has length
