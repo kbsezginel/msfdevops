@@ -6,7 +6,6 @@ sudo: false
 # python versions to be tested
 matrix:
   include:
-    - python: 2.7
     - python: 3.5
     - python: 3.6
 
@@ -37,5 +36,5 @@ script:
   # - pytest -v --doctest-modules --cov=./
 
 # if successful, track code coverage with codecov
-after_success:
-  - codecov
+# after_success:
+#   - codecov
