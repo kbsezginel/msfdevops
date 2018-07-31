@@ -35,5 +35,5 @@ script:
   - pytest -v --doctest-modules --cov=./
 
 # if successful, track code coverage with codecov
-# after_success:
-#   - codecov
+after_success:
+  - codecov
