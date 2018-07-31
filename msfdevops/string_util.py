@@ -21,7 +21,7 @@ def title_string(s):
 
     Examples
     --------
-    >>> title_string("this iS a StrrING to be ConverTeD")
+    >>> title_string("this iS a StrING to be ConverTeD")
     'This Is A String To Be Converted'
     """
     if not isinstance(s, str):

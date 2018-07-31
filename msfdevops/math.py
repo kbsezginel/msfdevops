@@ -29,7 +29,7 @@ def mean(num_list):
 
     # Check that list has length
     if len(num_list) == 0:
-        raise ZeroDivisionError('Cannot calulate mean of empty list')
+        raise ZeroDivisionError('Cannot calculate mean of empty list')
 
     try:
         avg = sum(num_list) / len(num_list)
