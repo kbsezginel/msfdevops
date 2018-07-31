@@ -5,7 +5,7 @@
 This is a test file, ignore.
 New line.
 This line is from GitHub.
-This line is a hotfix.
+This line fixes issue 7 and hotfix.
 
 #################################
 ###       STILL TESTING       ###
