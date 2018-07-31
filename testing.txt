@@ -4,6 +4,7 @@
 
 This is a test file, ignore.
 New line.
+This line is from GitHub.
 
 #################################
 ###       STILL TESTING       ###
