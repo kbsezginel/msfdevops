@@ -31,9 +31,8 @@ before_install:
   - pip install codecov
 
 script:
-  - pytest -v --cov=./
   # with doctest to test examples in doctrings
-  # - pytest -v --doctest-modules --cov=./
+  - pytest -v --doctest-modules --cov=./
 
 # if successful, track code coverage with codecov
 # after_success:
